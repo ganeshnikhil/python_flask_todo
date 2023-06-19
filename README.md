@@ -19,7 +19,7 @@ Installation
 1. Clone the repository:
 
    ```shell
-   $ git clone <repository-url>
+   $ git clone https://github.com/ganeshnikhil/python_flask_todo.git
    ```
 
 2. Install the required dependencies:
