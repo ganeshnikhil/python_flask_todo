@@ -35,7 +35,7 @@ def search():
       search_query=request.form['search']
       allTodo = Todo.query.all()
       for todo in allTodo:
-         if search_query==todo.title:
+         if search_query.lower() in todo.title.lower():
             return render_template('search.html',Sno=todo.sno,Title=todo.title,Desc=todo.desc,Date=todo.date_created)
             #return render_temf"{todo.sno}-{todo.title}-{todo.desc}-{todo.date_created}"
    return "<h1> Not found !.........................<h1>"+'<hr >'*100
