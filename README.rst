@@ -1,8 +1,8 @@
 # python_flask_todo
 
-```rst
-Flask TODO App
-===============```
+
+`Flask TODO App`
+===============
 
 This is a simple TODO app built using Flask and SQLAlchemy.
 
